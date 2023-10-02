@@ -8,9 +8,9 @@
         Title="MainWindow" Height="462" Width="826" Icon="/Resources/image.ico">
     
     <Grid>
-        
-        <RadioButton x:Name="alta" Content="Alta(100%)" HorizontalAlignment="Left" Margin="45,331,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Alta_Checked"/>
-        <RadioButton x:Name="media" Content="Media(60%)" HorizontalAlignment="Left" Margin="87,364,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Media_Checked"/>
+
+        <RadioButton x:Name="alta" Content="Alta(100%)" HorizontalAlignment="Left" Margin="45,331,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Alta_Checked" />
+        <RadioButton x:Name="media" Content="Media(60%)" HorizontalAlignment="Left" Margin="87,364,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Media_Checked" />
         <RadioButton x:Name="baja" Content="Baja(30%)" HorizontalAlignment="Left" Margin="179,394,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Baja_Checked" IsChecked="True"/>
 
         <Image x:Name="imagen" Margin="140,30,152,145" Source="/Resources/paisaje-e1549600034372.jpg" />

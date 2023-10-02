@@ -22,6 +22,7 @@ namespace Tema2_Imagen
     {
         public MainWindow()
         {
+            
             InitializeComponent();
         }
 
@@ -40,8 +41,7 @@ namespace Tema2_Imagen
         {
             
             imagen.Opacity = 1;
-            
-           
+               
             
         }
 

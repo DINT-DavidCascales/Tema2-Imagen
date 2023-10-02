@@ -10,7 +10,7 @@
         <RadioButton Content="Alta(100%)" HorizontalAlignment="Left" Margin="98,324,0,0" VerticalAlignment="Top" Height="13" Width="84"/>
         <RadioButton Content="Media(60%)" HorizontalAlignment="Left" Margin="346,325,0,0" VerticalAlignment="Top" Height="13" Width="84"/>
         <RadioButton Content="Baja(30%)" HorizontalAlignment="Left" Margin="592,324,0,0" VerticalAlignment="Top" Height="13" Width="84"/>
-        <Image Height="100" Width="100"/>
+        <Image Source="/Resources/paisaje-e1549600034372.jpg" Margin="152,30,152,145"/>
 
     </Grid>
 </Window>

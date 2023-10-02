@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <RadioButton Content="Alta(100%)" HorizontalAlignment="Left" Margin="98,324,0,0" VerticalAlignment="Top" Height="13" Width="84"/>
+        <RadioButton Content="Media(60%)" HorizontalAlignment="Left" Margin="346,325,0,0" VerticalAlignment="Top" Height="13" Width="84"/>
+        <RadioButton Content="Baja(30%)" HorizontalAlignment="Left" Margin="592,324,0,0" VerticalAlignment="Top" Height="13" Width="84"/>
+        <Image Height="100" Width="100"/>
 
     </Grid>
 </Window>

@@ -6,7 +6,18 @@
     <RootNamespace>Tema2_Imagen</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\image.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\image.ico" />
+    <None Remove="Resources\paisaje-e1549600034372.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\image.ico" />
+    <Resource Include="Resources\paisaje-e1549600034372.jpg" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

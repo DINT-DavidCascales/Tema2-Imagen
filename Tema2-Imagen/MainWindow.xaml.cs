@@ -24,5 +24,46 @@ namespace Tema2_Imagen
         {
             InitializeComponent();
         }
+
+       
+        private void Alta_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Opacity =0.3;
+        }
+
+        private void Media_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Opacity = 0.6;
+        }
+
+        private void Baja_Checked(object sender, RoutedEventArgs e)
+        {
+            
+            imagen.Opacity = 1;
+            
+           
+            
+        }
+
+        private void None_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Stretch = Stretch.None;
+        }
+
+        private void UniformToFill_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Stretch=Stretch.UniformToFill;
+
+        }
+
+        private void Uniform_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Stretch=Stretch.Uniform;
+        }
+
+        private void Fill_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Stretch = Stretch.Fill;
+        }
     }
 }

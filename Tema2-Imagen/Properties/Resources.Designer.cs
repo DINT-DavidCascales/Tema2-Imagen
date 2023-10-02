@@ -63,6 +63,16 @@ namespace Tema2_Imagen.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Byte[].
         /// </summary>
+        internal static byte[] image {
+            get {
+                object obj = ResourceManager.GetObject("image", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
         internal static byte[] paisaje_e1549600034372 {
             get {
                 object obj = ResourceManager.GetObject("paisaje-e1549600034372", resourceCulture);

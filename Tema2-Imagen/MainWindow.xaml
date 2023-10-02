@@ -5,12 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_Imagen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="462" Width="826" Icon="/Resources/image.ico">
+    
     <Grid>
-        <RadioButton Content="Alta(100%)" HorizontalAlignment="Left" Margin="98,324,0,0" VerticalAlignment="Top" Height="13" Width="84"/>
-        <RadioButton Content="Media(60%)" HorizontalAlignment="Left" Margin="346,325,0,0" VerticalAlignment="Top" Height="13" Width="84"/>
-        <RadioButton Content="Baja(30%)" HorizontalAlignment="Left" Margin="592,324,0,0" VerticalAlignment="Top" Height="13" Width="84"/>
-        <Image Source="/Resources/paisaje-e1549600034372.jpg" Margin="152,30,152,145"/>
+        
+        <RadioButton x:Name="alta" Content="Alta(100%)" HorizontalAlignment="Left" Margin="45,331,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Alta_Checked"/>
+        <RadioButton x:Name="media" Content="Media(60%)" HorizontalAlignment="Left" Margin="87,364,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Media_Checked"/>
+        <RadioButton x:Name="baja" Content="Baja(30%)" HorizontalAlignment="Left" Margin="179,394,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Baja_Checked" IsChecked="True"/>
+
+        <Image x:Name="imagen" Margin="140,30,152,145" Source="/Resources/paisaje-e1549600034372.jpg" />
+
+        <TextBlock HorizontalAlignment="Left" Margin="28,311,0,0" TextWrapping="Wrap" Text="Opacidad" VerticalAlignment="Top"/>
+        
+        
+        
+
+        <TextBlock HorizontalAlignment="Left" Margin="427,314,0,0" TextWrapping="Wrap" Text="Ajuste Imagen" VerticalAlignment="Top"/>
+        
+        
+        
+
+        <RadioButton x:Name="none" Content="None" HorizontalAlignment="Left" Margin="448,335,0,0" GroupName="AjusteImagen" VerticalAlignment="Top"  Checked="None_Checked" IsChecked="True"/>
+
+        <RadioButton x:Name="UniformToFill" Content="UniformToFill" HorizontalAlignment="Left" GroupName="AjusteImagen" Margin="530,402,0,0" VerticalAlignment="Top" Checked="UniformToFill_Checked"/>
+
+        <RadioButton x:Name="Uniform" Content="Uniform" HorizontalAlignment="Left" Margin="499,382,0,0" GroupName="AjusteImagen" VerticalAlignment="Top" Checked="Uniform_Checked"/>
+
+        <RadioButton x:Name="Fill" Content="Fill" HorizontalAlignment="Left" Margin="472,359,0,0" GroupName="AjusteImagen" VerticalAlignment="Top" Checked="Fill_Checked"/>
+        
 
     </Grid>
 </Window>

@@ -11,7 +11,7 @@
 
         <RadioButton x:Name="alta" Content="Alta(100%)" HorizontalAlignment="Left" Margin="45,331,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Alta_Checked" />
         <RadioButton x:Name="media" Content="Media(60%)" HorizontalAlignment="Left" Margin="87,364,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Media_Checked" />
-        <RadioButton x:Name="baja" Content="Baja(30%)" HorizontalAlignment="Left" Margin="179,394,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Baja_Checked" IsChecked="True"/>
+        <RadioButton x:Name="baja" Content="Baja(30%)" HorizontalAlignment="Left" Margin="179,394,0,0" GroupName="opacidad" VerticalAlignment="Top" Height="13" Width="84" Checked="Baja_Checked" />
 
         <Image x:Name="imagen" Margin="140,30,152,145" Source="/Resources/paisaje-e1549600034372.jpg" />
 
@@ -25,7 +25,7 @@
         
         
 
-        <RadioButton x:Name="none" Content="None" HorizontalAlignment="Left" Margin="448,335,0,0" GroupName="AjusteImagen" VerticalAlignment="Top"  Checked="None_Checked" IsChecked="True"/>
+        <RadioButton x:Name="none" Content="None" HorizontalAlignment="Left" Margin="448,335,0,0" GroupName="AjusteImagen" VerticalAlignment="Top"  Checked="None_Checked" />
 
         <RadioButton x:Name="UniformToFill" Content="UniformToFill" HorizontalAlignment="Left" GroupName="AjusteImagen" Margin="530,402,0,0" VerticalAlignment="Top" Checked="UniformToFill_Checked"/>
 

@@ -24,12 +24,14 @@ namespace Tema2_Imagen
         {
             
             InitializeComponent();
+            baja.IsChecked = true;
+            none.IsChecked = true;
         }
 
        
         private void Alta_Checked(object sender, RoutedEventArgs e)
         {
-            imagen.Opacity =0.3;
+            imagen.Opacity = 0.3;
         }
 
         private void Media_Checked(object sender, RoutedEventArgs e)
@@ -40,7 +42,7 @@ namespace Tema2_Imagen
         private void Baja_Checked(object sender, RoutedEventArgs e)
         {
             
-            imagen.Opacity = 1;
+            imagen.Opacity = 1.0;
                
             
         }
